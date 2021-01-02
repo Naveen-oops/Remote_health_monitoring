@@ -1,0 +1,28 @@
+{
+  "deviceTypes": [
+    {
+      "id": "Smart_Band",
+      "running": true,
+      "events": [
+        {
+          "id": "daily_report",
+          "frequency": {
+            "repeat": "20",
+            "every": "minute"
+          },
+          "json": "{\n   \"Age\": random(0,80),\n   \"Temperature\": random(0,41),\n   \"Systolic\": random(0,200),\n   \"Diastolic\": random(0,140),\n   \"Pulse\": random(0,200)\n}"
+        }
+      ],
+      "devices": [
+        {
+          "id": "1807",
+          "generated": false
+        }
+      ],
+      "managed": {
+        "enabled": false
+      }
+    }
+  ],
+  "APIKey": "a-fp6hdx-cdtpbedmgo"
+}
